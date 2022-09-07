@@ -3,7 +3,7 @@ import PyPDF2
 import pyttsx3
 
 # path of the PDF file
-path = open('Cracking_the_Coding_Interview_6th_Editio.pdf', 'rb')
+path = open('/Your pdf dile path/', 'rb')
 
 # creating a PdfFileReader object
 pdfReader = PyPDF2.PdfReader(path)
